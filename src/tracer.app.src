@@ -1,0 +1,17 @@
+{application, tracer,
+ [{description, "collect and csv-dump statistics about running vm and programs"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { tracer_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    lager
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
